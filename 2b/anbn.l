@@ -1,7 +1,7 @@
 %option noyywrap
 %{
 	#include<stdio.h>
-	#include "anbn.tab.h"
+	#include "y.tab.h"
 %}
 
 %%
