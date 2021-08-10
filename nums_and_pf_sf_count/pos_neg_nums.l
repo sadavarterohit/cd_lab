@@ -1,4 +1,4 @@
-%option noyywrap
+	%option noyywrap
 %{
 	#include<stdio.h>
 	int p=0, n=0, pf=0, nf=0,z=0;

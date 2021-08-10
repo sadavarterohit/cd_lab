@@ -37,7 +37,7 @@ exit(1);
 }
 int main(int argc, char* argv[]) {
 
-yyin = fopen(argv[1], "r");
+//yyin = fopen(argv[1], "r");
 yyparse();
 printf("No. of nested FOR's are: %d\n",count);
 return 0;
